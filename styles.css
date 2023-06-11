@@ -1,0 +1,58 @@
+body {
+    background-color: #141414;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.calculator {
+    border: 1px solid aliceblue;
+    height: 430px;
+    width: 350px;
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 8px;
+}
+
+#result {
+    width: 320px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 16px;
+    font-size: 30px;
+    background-color: #303134;
+    color: aliceblue;
+    border: 1px solid #ccc;
+}
+
+.button {
+    display: grid;
+    grid-template-columns: auto 77.5px auto auto;
+    margin: 10px;
+    height: 300px;
+    gap: 10px;
+}
+
+.button>button {
+    border-radius: 32px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #3c4043;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.button>.equals {
+    background: #8ab4f8;
+    color: #202124;
+}
+
+.button>.operator,
+.button>.clear,
+.button>.delete {
+    background: #5f6368;
+}
